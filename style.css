@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 2px solid red;
 }
 
 body {
@@ -134,7 +133,73 @@ button {
 
 /* Quote Section */
 
+.quote {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 7em 13em;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight:100;
+    color:#1f2937;
+    padding-bottom: 1em;
+}
+
+.quote p{
+    display: flex;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
 /* CTA */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.call-to-action .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding:3em;
+    width:100%;
+    border-radius:10px;
+}
+
+.call-to-action .container button {
+    border:2px solid #fff;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.call-to-action strong {
+    font-size: 24px;
+    color: #fff;
+}
+
+.call-to-action p {
+    color:#fff;
+    font-size:18px;
+}
+
 
 /* Footer */
 
+footer {
+    background-color: #1f2937;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2em 0em;
+}
